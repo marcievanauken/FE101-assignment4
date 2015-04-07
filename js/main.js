@@ -89,7 +89,7 @@ var carol = new Person("Carol", "female", 50, "librarian");
 // console.log(carol.age); - testing to see if above is working... it does!
 
 Person.prototype.profInfo = function() {
-	return "Carol's profession is a " + this.profession + "-";
+	return "Carol's profession is a " + this.profession + "- ";
 }
 
 Person.prototype.greeting = function() {
